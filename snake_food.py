@@ -6,10 +6,12 @@ playsurface=pygame.display.set_mode((1280,720))
 red=pygame.Color(255,0,0)
 black=pygame.Color(0,0,0)
 white=pygame.Color(255,255,255)
-file ='bgm.mp3'
-pygame.mixer.init()
-track = pygame.mixer.music.load(file)
-pygame.mixer.music.play(-1)
+
+#此处为bgm设置，如果需要则将file的文件改为你所要用的音乐即可
+# file ='bgm.mp3'
+# pygame.mixer.init()
+# track = pygame.mixer.music.load(file)
+# pygame.mixer.music.play(-1)
 
 def GameOver():
 
